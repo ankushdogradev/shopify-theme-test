@@ -1,2 +1,5 @@
 MatchingTranslations:
   enabled: false
+SpaceInsideBraces:
+  enabled: true
+  

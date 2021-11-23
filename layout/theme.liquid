@@ -54,6 +54,16 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 {{settings.type_body_font | font_face: font_display: 'swap'}}{{body_font_bold | font_face: font_display: 'swap'}}{{body_font_italic | font_face: font_display: 'swap'}}{{body_font_bold_italic | font_face: font_display: 'swap'}}{{settings.type_header_font | font_face: font_display: 'swap'}}:root {
     --font-body-family: {{settings.type_body_font.family}}, {{settings.type_body_font.fallback_families}};
     --font-body-style: {{settings.type_body_font.style}};
@@ -84,7 +94,7 @@
     --gradient-base-accent-2: {% if settings.gradient_accent_2 != blank %}
         {{settings.gradient_accent_2}}{% else %}{{settings.colors_accent_2}}{% endif %};
 
-    --page-width: {{settings.page_width | divided_by: 10}}rem;
+    --page-width: {{ settings.page_width | divided_by: 10 }}rem;
     --page-width-margin: {% if settings.page_width == '1600' %}
         2{% else %}0{% endif %}
     rem;
@@ -114,7 +124,7 @@ body {
     font-family: var(--font-body-family);
     font-style: var(--font-body-style);
     font-weight: var(--font-body-weight);
-    
+
 }
 
 @media screen and(min-width: 750px) {
@@ -122,6 +132,16 @@ body {
         font-size: 1.6rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
