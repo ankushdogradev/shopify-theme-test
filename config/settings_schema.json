@@ -1,6 +1,5 @@
-[
-  {
-    "name": "theme_info",
+[{
+    "name": "shopify-theme-test",
     "theme_name": "Dawn",
     "theme_version": "2.4.0",
     "theme_author": "Shopify",
@@ -9,8 +8,7 @@
   },
   {
     "name": "t:settings_schema.colors.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.colors.settings.header__1.content"
       },
@@ -88,8 +86,7 @@
   },
   {
     "name": "t:settings_schema.typography.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.typography.settings.header__1.content"
       },
@@ -135,16 +132,14 @@
   },
   {
     "name": "t:settings_schema.styles.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.styles.settings.header__1.content"
       },
       {
         "type": "select",
         "id": "sale_badge_color_scheme",
-        "options": [
-          {
+        "options": [{
             "value": "accent-1",
             "label": "t:settings_schema.styles.settings.sale_badge_color_scheme.options__2.label"
           },
@@ -163,8 +158,7 @@
       {
         "type": "select",
         "id": "sold_out_badge_color_scheme",
-        "options": [
-          {
+        "options": [{
             "value": "background-1",
             "label": "t:settings_schema.styles.settings.sold_out_badge_color_scheme.options__1.label"
           },
@@ -183,8 +177,7 @@
       {
         "type": "select",
         "id": "accent_icons",
-        "options": [
-          {
+        "options": [{
             "value": "accent-1",
             "label": "t:settings_schema.styles.settings.accent_icons.options__1.label"
           },
@@ -208,29 +201,25 @@
   },
   {
     "name": "t:settings_schema.layout.name",
-    "settings": [
-      {
-        "type": "select",
-        "id": "page_width",
-        "options": [
-          {
-            "value": "1200",
-            "label": "t:settings_schema.layout.settings.page_width.options__1.label"
-          },
-          {
-            "value": "1600",
-            "label": "t:settings_schema.layout.settings.page_width.options__2.label"
-          }
-        ],
-        "default": "1600",
-        "label": "t:settings_schema.layout.settings.page_width.label"
-      }
-    ]
+    "settings": [{
+      "type": "select",
+      "id": "page_width",
+      "options": [{
+          "value": "1200",
+          "label": "t:settings_schema.layout.settings.page_width.options__1.label"
+        },
+        {
+          "value": "1600",
+          "label": "t:settings_schema.layout.settings.page_width.options__2.label"
+        }
+      ],
+      "default": "1600",
+      "label": "t:settings_schema.layout.settings.page_width.label"
+    }]
   },
   {
     "name": "t:settings_schema.social-media.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.social-media.settings.header.content"
       },
@@ -292,8 +281,7 @@
   },
   {
     "name": "t:settings_schema.search_input.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.search_input.settings.header.content"
       },
@@ -321,19 +309,16 @@
   },
   {
     "name": "t:settings_schema.favicon.name",
-    "settings": [
-      {
-        "type": "image_picker",
-        "id": "favicon",
-        "label": "t:settings_schema.favicon.settings.favicon.label",
-        "info": "t:settings_schema.favicon.settings.favicon.info"
-      }
-    ]
+    "settings": [{
+      "type": "image_picker",
+      "id": "favicon",
+      "label": "t:settings_schema.favicon.settings.favicon.label",
+      "info": "t:settings_schema.favicon.settings.favicon.info"
+    }]
   },
   {
     "name": "t:settings_schema.currency_format.name",
-    "settings": [
-      {
+    "settings": [{
         "type": "header",
         "content": "t:settings_schema.currency_format.settings.content"
       },
