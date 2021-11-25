@@ -1,4 +1,1 @@
-header,
-body {
-  background-color: blue;
-}
+.content-for-layout,body,header{background-color:green}

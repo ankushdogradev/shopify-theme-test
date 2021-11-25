@@ -1,7 +1,11 @@
-$color-red: blue;
+$color-red: red;
+$color-blue: blue;
+$color-green: green;
+
 
 header,
+.content-for-layout,
 body {
-    background-color: $color-red;
+    background-color: $color-green;
 
 }
